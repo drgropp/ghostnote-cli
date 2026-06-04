@@ -1,0 +1,19 @@
+{
+  "port": 7777,
+  "webOrigin": "https://drgropp.github.io",
+  "sync": {
+    "provider": "none",
+
+    "_comment_gist": "set provider to 'gist' and fill these for desktop-off mobile sync",
+    "gist": {
+      "id": "<your private gist id>",
+      "token": "<your github personal access token>",
+      "pollSeconds": 20
+    },
+
+    "_comment_tailscale": "set provider to 'tailscale' for private remote, desktop must be on",
+    "tailscale": {
+      "peer": ""
+    }
+  }
+}
