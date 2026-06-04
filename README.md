@@ -11,7 +11,7 @@ in the CLI shows up in the TUI and the web app, and vice versa.
 
 ```
 ghostnote new ideas
-ghostnote append ideas "ship the CLI today"
+ghostnote append ideas "new project"
 ghostnote list
 ghostnote daemon     # lets the web app sync to this machine
 ```
@@ -97,7 +97,7 @@ Example config:
 ```
 
 See `config.example.json`. Note that `gist` and `tailscale` are scaffolded; the
-`none` provider (local same-machine sync) is the fully working default.
+`none` provider (local same-machine sync) is the fully working default. Only `none` is tested.
 
 ## The note format (`ghostnote/v1`)
 
